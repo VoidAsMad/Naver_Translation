@@ -5,7 +5,7 @@
 from naver_translation import naver
 
 #로그인 진행
-naver = naver.Translation(Client_ID = "Client_ID", Client_Secret = 'Client_Secret')
+naver = naver.Translation(client_id = "Client_ID", client_secret = 'Client_Secret')
 result = naver.detect(text = '너구리').text()
 
 print(result)
@@ -16,7 +16,7 @@ print(result)
 from naver_translation import naver
 
 #로그인 진행
-naver = naver.Translation(Client_ID = "Client_ID", Client_Secret = 'Client_Secret')
+naver = naver.Translation(client_id = "Client_ID", client_secret = 'Client_Secret')
 result = naver.translation(text = 'hello', target = "ko").text()
 
 print(result)
