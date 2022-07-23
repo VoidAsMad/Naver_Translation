@@ -5,7 +5,7 @@
 
 ## Naver
 ```py
-class Translation(Client_ID : str, Client_Secret : str):
+class Translation(client_id : str, client_secret : str):
 ```
 * 해당 라이브러리를 사용하려면 [네이버 개발자센터](https://developers.naver.com/main/)에서 발급받은 `Client ID`와 `Client Secret`가 필요합니다.
 #### - Parameters
